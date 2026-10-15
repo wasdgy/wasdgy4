@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Документы — ПОУ «Павлово-Посадская школа РО ДОСААФ России МО»</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/dosaaf-logo.png" alt="Логотип ДОСААФ">
+        <div class="logo-text-block">
+          <span class="logo-title">ДОСААФ</span>
+          <span class="logo-sub">Павлово-Посадская школа</span>
+        </div>
+      </a>
+      <nav class="nav-desktop">
+        <a href="index.html">Почему мы</a>
+        <a href="courses.html">Курсы</a>
+        <a href="instructors.html">Инструкторы</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="documents.html" class="active">Документы</a>
+        <a href="requisites.html">Реквизиты</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <div class="header-actions">
+        <button type="button" class="a11y-toggle" id="a11yToggle" aria-pressed="false" title="Версия для слабовидящих">
+        <i class="fas fa-eye" aria-hidden="true"></i>
+        <span class="label">Слабовидящим</span>
+      </button>
+        <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <nav class="mobile-nav">
+        <a href="index.html">Почему мы</a>
+        <a href="courses.html">Курсы</a>
+        <a href="instructors.html">Инструкторы</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="documents.html" class="active">Документы</a>
+        <a href="requisites.html">Реквизиты</a>
+        <a href="contacts.html">Контакты</a>
+        <div class="mobile-nav-phone">
+          <a href="tel:+79629787880"><i class="fas fa-phone-alt"></i> +7 (962) 978-78-80</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="documents">
+    <div class="container">
+      <h2 class="section-title">Документы</h2>
+      <p class="section-subtitle">Официальные документы организации. Нажмите на раздел, чтобы открыть список файлов</p>
+
+      <div class="docs-accordion">
+        <div class="docs-acc-item">
+          <button type="button" class="docs-acc-btn" aria-expanded="false">
+            <span><i class="fas fa-landmark"></i> Учредительные и разрешительные документы</span>
+            <i class="fas fa-chevron-down docs-acc-chevron"></i>
+          </button>
+          <div class="docs-acc-panel">
+            <div class="docs-grid">
+              <a href="documents/ustav.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-book"></i></div>
+                <div class="doc-body">
+                  <h4>Устав организации</h4>
+                  <p>Устав ПОУ «Павлово-Посадская школа РО ДОСААФ России МО» (новая редакция, 2015)</p>
+                  <span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span>
+                </div>
+              </a>
+              <a href="documents/license.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-certificate"></i></div>
+                <div class="doc-body">
+                  <h4>Лицензия на образовательную деятельность</h4>
+                  <p>Серия 50 Л 01 № 0008565, рег. № 76685 от 23.11.2016</p>
+                  <span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span>
+                </div>
+              </a>
+              <a href="documents/license-appendix.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-paperclip"></i></div>
+                <div class="doc-body">
+                  <h4>Приложение к лицензии</h4>
+                  <p>Приложение к лицензии на осуществление образовательной деятельности</p>
+                  <span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span>
+                </div>
+              </a>
+              <a href="documents/registration.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-file-contract"></i></div>
+                <div class="doc-body">
+                  <h4>Свидетельство о государственной регистрации</h4>
+                  <p>ОГРН 1025004641617</p>
+                  <span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span>
+                </div>
+              </a>
+              <a href="documents/inn.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-id-card"></i></div>
+                <div class="doc-body">
+                  <h4>Свидетельство ИНН</h4>
+                  <p>ИНН 5035004943</p>
+                  <span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="docs-acc-item">
+          <button type="button" class="docs-acc-btn" aria-expanded="false">
+            <span><i class="fas fa-file-alt"></i> Локальные нормативные акты и приказы</span>
+            <i class="fas fa-chevron-down docs-acc-chevron"></i>
+          </button>
+          <div class="docs-acc-panel">
+            <div class="docs-grid">
+              <a href="documents/prices-order.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-ruble-sign"></i></div>
+                <div class="doc-body">
+                  <h4>Приказ № 27 о стоимости обучения</h4>
+                  <p>Цены на обучение с 01.07.2026. Скидки и дополнительные услуги</p>
+                  <span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="docs-acc-item">
+          <button type="button" class="docs-acc-btn" aria-expanded="false">
+            <span><i class="fas fa-road"></i> Материально-техническая база</span>
+            <i class="fas fa-chevron-down docs-acc-chevron"></i>
+          </button>
+          <div class="docs-acc-panel">
+            <div class="docs-grid">
+              <a href="documents/lab-platform.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-clipboard-check"></i></div>
+                <div class="doc-body">
+                  <h4>Лабораторное заключение площадки</h4>
+                  <p>Заключение о соответствии учебной площадки</p>
+                  <span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span>
+                </div>
+              </a>
+              <a href="documents/lighting-protocol.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-lightbulb"></i></div>
+                <div class="doc-body">
+                  <h4>Протокол измерений освещённости</h4>
+                  <p>Протокол № 143 измерений физических факторов</p>
+                  <span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="docs-acc-item">
+          <button type="button" class="docs-acc-btn" aria-expanded="false">
+            <span><i class="fas fa-chalkboard-teacher"></i> Дипломы преподавателей теории</span>
+            <i class="fas fa-chevron-down docs-acc-chevron"></i>
+          </button>
+          <div class="docs-acc-panel">
+            <div class="docs-grid">
+              <a href="documents/diplomas/arsenova.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="doc-body">
+                  <h4>Арсёнова Светлана Евдокимовна</h4>
+                  <p>Диплом о высшем образовании. Преподаватель теории</p>
+                  <span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span>
+                </div>
+              </a>
+              <a href="documents/diplomas/maksenkov.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="doc-body">
+                  <h4>Максенков Николай Павлович</h4>
+                  <p>Диплом о высшем образовании, квалификация «Инженер»</p>
+                  <span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="docs-acc-item">
+          <button type="button" class="docs-acc-btn" aria-expanded="false">
+            <span><i class="fas fa-user-graduate"></i> Дипломы преподавателей по вождению</span>
+            <i class="fas fa-chevron-down docs-acc-chevron"></i>
+          </button>
+          <div class="docs-acc-panel">
+            <div class="docs-grid">
+              <a href="documents/diplomas/shilo-sn.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="doc-body"><h4>Шило Сергей Николаевич</h4><p>Диплом · 256 ч. «Преподаватель»</p><span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span></div>
+              </a>
+              <a href="documents/diplomas/shilo-ds.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="doc-body"><h4>Шило Данила Сергеевич</h4><p>Диплом · 256 ч. «Преподаватель»</p><span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span></div>
+              </a>
+              <a href="documents/diplomas/chernyshev.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="doc-body"><h4>Чернышев Ярослав Ярославович</h4><p>Диплом · 256 ч. «Преподаватель»</p><span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span></div>
+              </a>
+              <a href="documents/diplomas/suslov.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="doc-body"><h4>Суслов Александр Олегович</h4><p>Диплом · 256 ч. «Преподаватель»</p><span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span></div>
+              </a>
+              <a href="documents/diplomas/sevostyanov.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="doc-body"><h4>Севостьянов Александр Иванович</h4><p>Диплом · 256 ч. «Преподаватель»</p><span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span></div>
+              </a>
+              <a href="documents/diplomas/sudarikov.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="doc-body"><h4>Судариков Иван Александрович</h4><p>Диплом · 256 ч. «Преподаватель»</p><span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span></div>
+              </a>
+              <a href="documents/diplomas/raguzov.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="doc-body"><h4>Рагузов Иван Сергеевич</h4><p>Диплом · 256 ч. «Преподаватель»</p><span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span></div>
+              </a>
+              <a href="documents/diplomas/efimenko.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="doc-body"><h4>Ефименко Анатолий Владимирович</h4><p>Диплом · 256 ч. «Преподаватель»</p><span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span></div>
+              </a>
+              <a href="documents/diplomas/klimov.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="doc-body"><h4>Климов Андрей Александрович</h4><p>Диплом · 256 ч. «Преподаватель»</p><span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span></div>
+              </a>
+              <a href="documents/diplomas/bobylev-e.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="doc-body"><h4>Бобылев Евгений Владимирович</h4><p>Диплом · 256 ч. «Преподаватель»</p><span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span></div>
+              </a>
+              <a href="documents/diplomas/bobylev-v.pdf" target="_blank" class="doc-card">
+                <div class="doc-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="doc-body"><h4>Бобылев Василий Евгеньевич</h4><p>Диплом · 256 ч. «Преподаватель»</p><span class="doc-meta"><i class="fas fa-file-pdf"></i> PDF · открыть</span></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="docs-note">
+        <p>Раздел сформирован в соответствии с требованиями ст. 29 Федерального закона № 273-ФЗ «Об образовании в Российской Федерации» и приказа Рособрнадзора.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="images/dosaaf-logo.png" alt="Логотип ДОСААФ">
+            <div class="logo-text-block">
+              <span class="logo-title">ДОСААФ</span>
+              <span class="logo-sub">Павлово-Посадская школа</span>
+            </div>
+          </a>
+          <p>ПОУ «Павлово-Посадская школа РО ДОСААФ России МО». Подготовка водителей всех категорий с 2016 года.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Разделы</h4>
+                    <a href="index.html">Почему мы</a>
+          <a href="courses.html">Курсы</a>
+          <a href="instructors.html">Инструкторы</a>
+          <a href="gallery.html">Галерея</a>
+          <a href="documents.html">Документы</a>
+          <a href="requisites.html">Реквизиты</a>
+          <a href="contacts.html">Контакты</a>
+</div>
+        <div class="footer-links">
+          <h4>Контакты</h4>
+          <a href="tel:+79629787880">+7 (962) 978-78-80</a>
+          <a href="mailto:Pposrosto@mail.ru">Pposrosto@mail.ru</a>
+          <a href="https://www.dosaaf-pp.ru" target="_blank">www.dosaaf-pp.ru</a>
+          <a href="contacts.html">142500, МО, г. Павловский Посад,<br>ул. Большая Покровская, д. 45</a>
+        </div>
+        <div class="footer-links">
+          <h4>Мы в соцсетях</h4>
+          <div class="footer-social">
+            <a href="https://vk.ru/ppdosaaf" target="_blank" rel="noopener" aria-label="ВКонтакте"><i class="fab fa-vk"></i></a>
+            <a href="https://max.ru/" target="_blank" rel="noopener" class="social-max" aria-label="MAX" title="MAX: +7 (962) 978-78-80"><span class="max-icon">M</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 ПОУ «Павлово-Посадская школа РО ДОСААФ России МО». Все права защищены.</div>
+        <div>Лицензия Серия 50 Л 01 № 0008565</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const burger = document.getElementById('burger');
+      const mobileMenu = document.getElementById('mobileMenu');
+      if (burger && mobileMenu) {
+        function closeMenu() {
+          burger.classList.remove('active');
+          mobileMenu.classList.remove('open');
+          burger.setAttribute('aria-expanded', 'false');
+          document.body.style.overflow = '';
+        }
+        function openMenu() {
+          burger.classList.add('active');
+          mobileMenu.classList.add('open');
+          burger.setAttribute('aria-expanded', 'true');
+          document.body.style.overflow = 'hidden';
+        }
+        burger.addEventListener('click', function () {
+          mobileMenu.classList.contains('open') ? closeMenu() : openMenu();
+        });
+        mobileMenu.addEventListener('click', function (e) {
+          if (e.target === mobileMenu) closeMenu();
+        });
+        mobileMenu.querySelectorAll('a').forEach(function (l) { l.addEventListener('click', closeMenu); });
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeMenu(); });
+      }
+      const header = document.querySelector('header');
+      if (header) {
+        window.addEventListener('scroll', function () {
+          header.classList.toggle('scrolled', window.scrollY > 20);
+        }, { passive: true });
+      }
+      const reveals = document.querySelectorAll('.reveal');
+      if (reveals.length && 'IntersectionObserver' in window) {
+        const io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+          });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+        reveals.forEach(function (el) { io.observe(el); });
+      } else {
+        reveals.forEach(function (el) { el.classList.add('visible'); });
+      }
+      // Accessibility — simple B/W toggle
+      (function () {
+        var btn = document.getElementById('a11yToggle');
+        if (!btn) return;
+        var KEY = 'dosaaf-a11y';
+        function apply(on) {
+          document.body.classList.toggle('a11y-mode', on);
+          btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+          var label = btn.querySelector('.label');
+          if (label) label.textContent = on ? 'Обычная' : 'Слабовидящим';
+          try { localStorage.setItem(KEY, on ? '1' : '0'); } catch (e) {}
+        }
+        try { if (localStorage.getItem(KEY) === '1') apply(true); } catch (e) {}
+        btn.addEventListener('click', function () {
+          apply(!document.body.classList.contains('a11y-mode'));
+        });
+      })();
+
+      // Documents accordion
+      (function () {
+        document.querySelectorAll('.docs-acc-btn').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var item = btn.closest('.docs-acc-item');
+            var open = item.classList.contains('open');
+            document.querySelectorAll('.docs-acc-item.open').forEach(function (el) {
+              el.classList.remove('open');
+              el.querySelector('.docs-acc-btn').setAttribute('aria-expanded', 'false');
+            });
+            if (!open) {
+              item.classList.add('open');
+              btn.setAttribute('aria-expanded', 'true');
+            }
+          });
+        });
+      })();
+    })();
+  </script>
+
+  <a href="contacts.html" class="fab-contact" aria-label="Связаться с нами">
+    <i class="fas fa-phone-alt"></i>
+    <span>Связаться с нами</span>
+  </a>
+
+</body>
+</html>
